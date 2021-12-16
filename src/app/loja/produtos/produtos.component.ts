@@ -22,4 +22,7 @@ export class ProdutosComponent implements OnInit {
     this.router.navigate(['/produto/', produto])
 
 }
+voltar() {
+  this.router.navigate(['/'])
+}
 }
