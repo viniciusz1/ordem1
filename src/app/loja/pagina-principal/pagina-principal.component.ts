@@ -16,4 +16,7 @@ export class PaginaPrincipalComponent implements OnInit {
   abrirProdutos(){
     this.router.navigate(['/produto/'])
 }
+  abrirGerenciarClientes(){
+    
+  }
 }
