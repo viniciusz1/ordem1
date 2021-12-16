@@ -14,8 +14,6 @@ export class PaginaPrincipalComponent implements OnInit {
   ngOnInit() {
   }
   abrirProdutos(){
-    
     this.router.navigate(['/produto/'])
-
 }
 }

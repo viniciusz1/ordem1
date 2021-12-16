@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
 export class ProdutosComponent implements OnInit {
 
   listaProdutos = [
-    1, 3 , 40, 30, 50 , 38 , 58909, 32, 54
+    1, 3 , 40, 30, 50 , 38 , 58, 32, 54
   ]
 
   constructor(
