@@ -21,7 +21,7 @@ export class ProdutoComponent implements OnInit {
   ngOnInit() {
   }
   voltar() {
-    this.router.navigate(['/produto/'])
+    this.router.navigate(['/loja/produto/'])
   }
 
 }

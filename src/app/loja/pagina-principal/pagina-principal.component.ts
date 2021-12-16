@@ -14,9 +14,12 @@ export class PaginaPrincipalComponent implements OnInit {
   ngOnInit() {
   }
   abrirProdutos(){
-    this.router.navigate(['/produto/'])
+    this.router.navigate(['/loja/produto/'])
 }
-  abrirGerenciarClientes(){
-    
+abrirGerenciarClientes(){
+  this.router.navigate(['/gerenciar-clientes/'])
+}
+abrirGerenciarProdutos(){
+  this.router.navigate(['/gerenciar-produtos/'])
   }
 }
